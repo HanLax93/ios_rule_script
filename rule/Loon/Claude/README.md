@@ -30,11 +30,11 @@ Claude规则由《RULE GENERATOR 规则生成器》自动生成。
 #### 规则链接
 **MASTER分支 (每日更新)**
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list
+https://raw.githubusercontent.com/hanlax93/ios_rule_script/master/rule/Loon/Claude/Claude.list
 
 **MASTER分支 CDN (每日更新)**
 
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Loon/Claude/Claude.list
+https://cdn.jsdelivr.net/gh/hanlax93/ios_rule_script@master/rule/Loon/Claude/Claude.list
 
 **MASTER分支 GHProxy (每日更新)**
 
