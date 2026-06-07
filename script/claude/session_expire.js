@@ -1,4 +1,4 @@
-if ($request.url.indexOf("claude.ai/api/account") != -1) {
+if ($request.url.indexOf("account") != -1) {
     let modifiedHeaders = { ...$response.headers };
     modifiedHeaders["Set-Cookie"] = "sessionKey=; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Path=/; Domain=.claude.ai, routingHint=; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Path=/; Domain=.claude.ai";
     let mockBody = JSON.stringify({ "error": { "type": "authentication_error", "message": "session_expired" } });
