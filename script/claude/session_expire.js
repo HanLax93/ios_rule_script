@@ -5,5 +5,6 @@ if ($request.url.indexOf("claude.ai/api/account") != -1) {
     $notification.post("Claude 修复", "已强制触发登出", "请强退并重启 Claude App");
     $done({ status: 401, headers: modifiedHeaders, body: mockBody });
 } else {
+    $notification.post("Claude 修复", "未命中", "未命中");
     $done({});
 }
